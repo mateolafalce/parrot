@@ -55,7 +55,7 @@ MiniGPT (decoder-only transformer)
 ## Pipeline
 
 1. **Parsing**: Upload a WhatsApp export (`.txt`). Messages are extracted with regex and consecutive messages from the same sender are grouped.
-2. **Pairing**: `{input, output}` pairs are built where the input is what Javi said and the output is my response. Multimedia messages are filtered out.
+2. **Pairing**: `{input, output}` pairs are built where the input is what X said and the output is my response. Multimedia messages are filtered out.
 3. **Tokenization**: A BPE tokenizer is used with special tokens (`SOS`, `EOS`, `PAD`).
 4. **Training**: The transformer is trained with teacher forcing on concatenated sequences (input + output).
 5. **Generation**: Autoregressive decoding with temperature scaling and top-k sampling (k=40).
