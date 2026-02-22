@@ -4,9 +4,9 @@
 
 # Parrot
 
-A transformer language model (MiniGPT) trained from scratch on real WhatsApp conversations to mimic how I (Mateo) respond.
-
 </div>
+
+A transformer language model (MiniGPT) trained from scratch on real WhatsApp conversations to mimic how I (Mateo) respond.
 
 ## What is it?
 
