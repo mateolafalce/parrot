@@ -1,6 +1,12 @@
+<div align="center">
+
+<img src="./parrot.jpg" width="300" height="300" alt="Description">   
+
 # Parrot
 
 A transformer language model (MiniGPT) trained from scratch on real WhatsApp conversations to mimic how I (Mateo) respond.
+
+</div>
 
 ## What is it?
 
