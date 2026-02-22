@@ -4,7 +4,7 @@ A transformer language model (MiniGPT) trained from scratch on real WhatsApp con
 
 ## What is it?
 
-Parrot parses a WhatsApp chat export, extracts conversation pairs (input message -> response), and trains a decoder-only transformer to learn how to respond like me given a message from "Javi".
+Parrot parses a WhatsApp chat export, extracts conversation pairs (input message -> response), and trains a decoder-only transformer to learn how to respond like me given a message from X user.
 
 The model is lightweight (~4.2M parameters) and designed to run on Google Colab with a GPU.
 
