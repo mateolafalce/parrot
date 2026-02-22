@@ -75,16 +75,3 @@ To load the pre-trained weights instead of training from scratch:
 checkpoint = torch.load("minigpt_chat.pt")
 model.load_state_dict(checkpoint['model_state'])
 ```
-
-## Dependencies
-
-- Python 3.x
-- PyTorch
-- Google Colab (for file upload/download)
-
-## Structure
-
-```
-parrot/
-└── parrot.ipynb    # Notebook with the full project (parsing, model, training, inference)
-```
